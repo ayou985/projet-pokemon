@@ -27,3 +27,7 @@ h1 {
 .bgg {
 	background-color: #e8e8f2;
 }
+
+img {
+	border-radius: 25%;
+	}
