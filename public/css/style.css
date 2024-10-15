@@ -31,3 +31,11 @@ h1 {
 img {
 	border-radius: 25%;
 	}
+
+
+footer {
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 18px;
+}
