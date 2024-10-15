@@ -19,6 +19,7 @@ class Router
         $this->routes[$pattern] = [
             'controller' => $controllerClass,
             'method' => $method
+
         ];
     }
 
@@ -52,6 +53,9 @@ class Router
 
                 // Appelle la méthode associée de ce contrôleur
                 $controller->$method();
+
+                // Création d'une nonuvelle route 
+                
 
                 // Sort de la boucle car la route a été trouvée
                 break;
